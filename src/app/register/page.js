@@ -69,7 +69,7 @@ export default function RegistrationForm() {
                         />
                     </div>
                     <div>
-                        <label htmlFor="name">Applicant's Name:</label>
+                        <label htmlFor="name">Applicant&apos;s Name:</label>
                         <input
                             type="text"
                             id="name"
@@ -81,7 +81,7 @@ export default function RegistrationForm() {
                         />
                     </div>
                     <div>
-                        <label htmlFor="fatherName">Father's Name:</label>
+                        <label htmlFor="fatherName">Father&apos;s Name:</label>
                         <input
                             type="text"
                             id="fatherName"
@@ -93,7 +93,7 @@ export default function RegistrationForm() {
                         />
                     </div>
                     <div>
-                        <label htmlFor="motherName">Mother's Name:</label>
+                        <label htmlFor="motherName">Mother&apos;s Name:</label>
                         <input
                             type="text"
                             id="motherName"
