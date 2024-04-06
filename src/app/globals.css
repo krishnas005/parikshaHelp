@@ -2,32 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.form-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.label {
+  margin-right: 10px; /* Add margin between label and input */
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px; /* Set width as needed */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.input-field {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #e2e8f0; /* Add a border to make it always visible */
+  border-radius: 0.25rem;
+  outline: none; /* Remove the default focus outline */
+  transition: border-color 0.2s ease-in-out; /* Add a transition effect */
+}
+
+.input-field:focus {
+  border-color: #4299e1; /* Change the border color on focus */
 }
