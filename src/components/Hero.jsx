@@ -18,7 +18,7 @@ const Column1 = () => (
                 {/* <Button text="Help Desks" backgroundColor="transparent" /> */}
                 {/* <Button text="Annexures" backgroundColor="transparent" /> */}
                 <Button text="Candidate Grievances" backgroundColor="transparent" />
-                <Link href='/rank-calculate'><Button text="Shortlisted Candidates" backgroundColor="transparent" /></Link>
+                <Link href='/candidate-list'><Button text="Shortlisted Candidates" backgroundColor="transparent" /></Link>
                 {/* <Link className="ml-5 my-4" href="/rank-calculate">Shortlisted Candidates</Link> */}
             </div>
         </div>
